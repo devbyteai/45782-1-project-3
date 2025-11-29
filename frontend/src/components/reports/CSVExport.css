@@ -1,0 +1,22 @@
+.csv-export-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.csv-export-btn:hover:not(:disabled) {
+    background: #218838;
+}
+
+.csv-export-btn:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}

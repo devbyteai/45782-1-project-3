@@ -1,0 +1,70 @@
+.admin-vacations-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.admin-vacations-page .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.admin-vacations-page h1 {
+    margin: 0;
+    color: #333;
+}
+
+.admin-vacations-page .btn-primary {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.admin-vacations-page .btn-primary:hover {
+    background: #0056b3;
+}
+
+.admin-vacations-page .error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.admin-vacations-page .loading,
+.admin-vacations-page .no-vacations {
+    text-align: center;
+    padding: 48px;
+    color: #666;
+    font-size: 18px;
+}
+
+.admin-vacations-page .vacations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+@media (max-width: 768px) {
+    .admin-vacations-page {
+        padding: 16px;
+    }
+
+    .admin-vacations-page .page-header {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .admin-vacations-page .vacations-grid {
+        grid-template-columns: 1fr;
+    }
+}

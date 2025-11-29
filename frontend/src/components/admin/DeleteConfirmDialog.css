@@ -1,0 +1,70 @@
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.dialog-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+.dialog-content h3 {
+    margin: 0 0 16px;
+    color: #333;
+}
+
+.dialog-content p {
+    margin: 0 0 24px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.dialog-actions .btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.dialog-actions .btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.dialog-actions .btn-secondary:hover:not(:disabled) {
+    background: #545b62;
+}
+
+.dialog-actions .btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.dialog-actions .btn-danger:hover:not(:disabled) {
+    background: #c82333;
+}
+
+.dialog-actions .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

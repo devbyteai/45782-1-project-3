@@ -1,0 +1,19 @@
+.edit-vacation-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.edit-vacation-page.loading {
+    text-align: center;
+    padding: 48px;
+    color: #666;
+}
+
+.edit-vacation-page .error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}

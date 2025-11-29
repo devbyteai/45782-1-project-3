@@ -1,0 +1,23 @@
+{
+    "app": {
+        "port": 3000,
+        "name": "Vacations API",
+        "secret": "MySecret",
+        "jwtSecret": "JwtSecret",
+        "jwtExpiration": "24h"
+    },
+    "db": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "vacations_user",
+        "password": "1234",
+        "database": "vacations_db"
+    },
+    "s3": {
+        "endpoint": "http://localhost:4566",
+        "bucket": "vacation-images",
+        "region": "us-east-1",
+        "accessKeyId": "test",
+        "secretAccessKey": "test"
+    }
+}

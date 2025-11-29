@@ -1,0 +1,8 @@
+{
+    "app": {
+        "name": "Vacations API (Test)"
+    },
+    "db": {
+        "database": "vacations_test"
+    }
+}

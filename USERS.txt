@@ -1,0 +1,19 @@
+# Vacation Tagging System - User Credentials
+
+## Admin User
+Email: admin@vacations.com
+Password: admin1234
+Role: admin
+
+## Regular Users
+Email: john@example.com
+Password: user1234
+Role: user
+
+Email: jane@example.com
+Password: user1234
+Role: user
+
+---
+Note: These are the seeded test users.
+You can register new users through the /register page.

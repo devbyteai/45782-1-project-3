@@ -1,0 +1,42 @@
+.vacations-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.vacations-page h1 {
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.vacations-page .error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.vacations-page .loading,
+.vacations-page .no-vacations {
+    text-align: center;
+    padding: 48px;
+    color: #666;
+    font-size: 18px;
+}
+
+.vacations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+@media (max-width: 768px) {
+    .vacations-page {
+        padding: 16px;
+    }
+
+    .vacations-grid {
+        grid-template-columns: 1fr;
+    }
+}

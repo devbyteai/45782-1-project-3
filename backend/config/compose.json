@@ -1,0 +1,11 @@
+{
+    "app": {
+        "name": "Vacations API (Docker)"
+    },
+    "db": {
+        "host": "database"
+    },
+    "s3": {
+        "endpoint": "http://localstack:4566"
+    }
+}
